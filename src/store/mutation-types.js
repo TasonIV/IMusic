@@ -1,0 +1,10 @@
+
+export const SET_MUSIC_LIST = 'SET_MUSIC_LIST'  
+
+export const SET_TOP_LIST = 'SET_TOP_LIST'  
+
+export const SET_RECOMMEND_MUSIC_LIST = 'SET_RECOMMEND_MUSIC_LIST'  
+
+export const SET_PLAY_LIST = 'SET_PLAY_LIST'  
+
+export const SET_PLAY_LYRICLIST = 'SET_PLAY_LYRICLIST'

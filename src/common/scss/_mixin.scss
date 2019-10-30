@@ -1,0 +1,22 @@
+// 导航栏分页器 的底部边线，随屏幕倍数自适应
+@mixin border-bottom($color) {
+    position: relative;
+    &:after {    
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: block;   //需设置宽高的时候添加
+      content: '';    //必须添加 content:"";
+      width: 100%;
+      height: 0;
+      border-top: 1px solid $color;
+    }
+  }
+  
+  @mixin border-none{
+    &:after {
+      display: none;
+      content: '';
+      border-top: 0;
+    }
+  }
